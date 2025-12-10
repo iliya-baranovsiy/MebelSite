@@ -2,6 +2,10 @@ head {
     margin: 0px;
 }
 
+body {
+    background-color: #FCFBFF;
+}
+
 header {
     width: 1200px ;
     height: 29.04px;
@@ -215,4 +219,128 @@ header > div >span {
 
 .text {
     display: inline-block;
+}
+
+
+.examples {
+    width: 1200px;
+    height: 584.88px;
+    margin: 0 auto 140px;
+}
+
+.examples_texts {
+    width: 819.7px;
+    height: 122.56px;
+    display: inline-block;
+    margin-right: 279.4px;
+}
+
+.examples_texts > h3 {
+    width: 370px;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #242424;
+}
+
+.examples_texts > span {
+    width: 819.7px;
+    height: 50.56px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #383738;
+}
+
+.images {
+    width: 96px;
+    height: 40px;
+    display: inline-flex;
+    gap: 16px;
+    margin-top: 82.56px;
+}
+
+.text_right_left {
+    margin-bottom: 80px;
+}
+
+
+.examples_cards {
+    width: 1200px;
+    height: 382.31px;
+    display: flex;
+    gap: 30px
+}
+
+.card {
+    width: 380px;
+    height: 382.31px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 13px 26px 0px #00000012;
+}
+
+.card_detail {
+    width: 331.88px;
+    height: 79.25px;
+    margin: 30.03px 24.06px 26.69px 24.06px;
+    
+}
+
+.img_text >h5 {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 101.88px;
+    margin-top: 0px;
+    width: 170px;
+    height: 27px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #242424;
+}
+
+.img_text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20.75px;
+}
+
+.card_img {
+    margin-right: 8px;
+}
+
+.span_button > span {
+    display: inline-block;
+    width: 46px;
+    height: 31px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #154444;
+    font-family: 'DM Sans';
+    margin-right: 207.02px;
+}
+
+.buy_btn {
+    width: 78.85px;
+    height: 32px;
+    background-color: #244D4D;
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: white;
+}
+
+.span_button {
+    display: flex;
+    align-items: center;
 }
