@@ -3,7 +3,9 @@ head {
 }
 
 header {
-    margin: 44px 120px 0px 120px;
+    width: 1200px ;
+    height: 29.04px;
+    margin: 44px auto 26.85px;
 }
 
 header > h4 {
@@ -36,9 +38,8 @@ header > div >span {
 .first_block {
     height: 560px;
     width: 1200px;
-    margin-left: 120px;
-    margin-right: 120px;
     background-color: #154444;
+    margin: 0 auto 140px;
     display: flex;
 }
 
@@ -93,4 +94,125 @@ header > div >span {
     font-size: 20px;
     line-height: 25px;
     color: #154444;
+}
+
+.loup {
+    margin-right: 30px;
+}
+
+.companies_block {
+    width: 1082px;
+    height: 133.97px;
+    margin: 0 auto 140px;
+}
+
+.companies_block > h4 {
+    width: 486.85px;
+    height: 42px;
+    font-family: 'DM Sans';
+    font-size: 32px;
+    font-weight: 700;
+    color: #244D4D;
+    margin: 0px 297.58px 40px 297.58px;
+}
+
+.photos {
+    display: flex;
+    gap: 100px
+}
+
+.about_block {
+    width: 1167.97px;
+    height: 612.21px;
+    margin: 0 auto 140px;
+}
+
+.pictures {
+    width: 631.24px;
+    height: 612.21px;
+    display: inline-block;
+}
+
+.pictures > img {
+    width: 596px;
+    height: 577px;
+    position: absolute;
+    z-index: 1;
+}
+
+.Rectangle {
+    position: relative;
+    width: 631.24px;
+    height: 586.21px;
+    background-color: #DEE4E2;
+    transform: translateY(26px);
+}
+
+.about {
+    display: inline-block;
+    width: 436.73px;
+    height: 517px;
+    margin-top: 46.5px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.about > h3 {
+    font-family: 'DM Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #244D4D;
+    width: 407.77px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.about > span {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #444444;
+    width: 436.73px;
+    height: 75px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+
+.params > img {
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.params {
+    margin-bottom: 30px;
+    
+}
+
+.text > span {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #383738;
+    width: 271.74px;
+    display: block;
+    margin-top: 14px;
+}
+
+.text > h5 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #244D4D;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text {
+    display: inline-block;
 }
