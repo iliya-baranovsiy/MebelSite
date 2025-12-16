@@ -610,3 +610,84 @@ header > div >span {
     letter-spacing: 0%;
     color: #000000;
 }
+
+.formBlock {
+    width: 1200px;
+    height: 394.32px;
+    background-color: #F4F6F6;
+    margin: 0 auto 140px;
+    padding-top: 68px;
+}
+
+.formBlockText {
+    width: 605px;
+    height: 164px;
+    margin: 0 297.5px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formBlockText > h3 {
+    width: 605px;
+    height: 96px;
+    color: #222222;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.formBlockText > span {
+    display: inline-block;
+    width: 493px;
+    height: 48px;
+    color: #222222;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.emailForm {
+    width: 471.9790344238281px;
+    height: 67px;
+    background-color: #FFFFFF;
+    margin: 0 363.52px 55.32px 364.5px;
+}
+
+.emailForm > img {
+    margin: 25.49px 12px 25.51px 17.52px;
+}
+
+.formWithButton {
+    display: inline-block;
+    position: absolute;
+    
+}
+
+.submitBtn {
+    border: 0;
+    padding: 0;
+    width: 125.32px;
+    height: 52px;
+    background-color: #305F64;
+    margin: 6.99px 19.19px 8.01px 0;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.formWithButton > form >input {
+    border: 0;
+    padding: 0;
+    width: 281.95px;
+    height: 52px;
+    outline: none;
+}
