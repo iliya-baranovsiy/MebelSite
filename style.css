@@ -344,3 +344,165 @@ header > div >span {
     display: flex;
     align-items: center;
 }
+
+.furniture {
+    width: 1186.93px;
+    height: 593.39px;
+    margin: 0 auto 140px;
+}
+
+.furniture_text {
+    margin-bottom: 80px;
+    width: 720px;
+    height: 103.33px;
+    margin-left: 234.5px;
+    margin-right: 232.43px;
+}
+
+.furniture_text > h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 48px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #242424;
+    text-align: center;
+}
+
+.spansText {
+    width: 720px;
+    height: 35.33px;
+    display: flex;
+    flex-direction: row;
+    gap: 102px;
+}
+
+
+.span_div > span{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #919090;
+}
+
+
+.span_div_1 {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #154444;
+    height: 27px;
+}
+
+.line {
+    width: 57.017120361328125px;
+    height: 2.3037760257720947px;
+    opacity: 1;
+    background-color: #154444;
+    margin-left: 48.31px;
+    margin-right: 57.67px;
+    margin-top: 6.02px;
+}
+
+
+.picture_block {
+    display: inline-block;
+    width: 577.48px;
+    height: 410.07px;
+    position: relative;
+    margin-right: 135.45px;
+}
+
+.picture_block img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first {
+    width: 190.1015625px;
+    height: 85.8670883178711px;
+    opacity: 1;
+    background-color: #154444;
+}
+
+.second {
+    width: 190.1015625px;
+    height: 85.8670883178711px;
+    opacity: 1;
+    background-color: #154444;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.furniture_cards {
+    display: flex;
+    flex-direction: column;
+    gap:33.42px;
+    width: 474px;
+    height: 336.83px;
+    margin-top: 40.87px;
+    margin-bottom: 32.36px;
+}
+
+.furniture_row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.common {
+    display: flex;
+}
+
+.furniture_component {
+    width: 222px;
+    height: 90px;
+    border: 1.5px solid #D9DCE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.furniture_component > span {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #808080;
+}
+
+#individual {
+    width: 222px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #154444;
+}
+
+#individual > span {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
