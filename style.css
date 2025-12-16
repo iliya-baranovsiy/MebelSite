@@ -506,3 +506,107 @@ header > div >span {
     letter-spacing: 0%;
     color: #FFFFFF;
 }
+
+.customers {
+    width: 1200px;
+    height: 492.42px;
+    margin: 0 auto 140px;
+}
+
+.leftPart {
+    position: relative;
+    width: 564.2906494140625px;
+    height: 492.4248046875px;
+    margin-right: 100.64px;
+    display: inline-block;
+}
+
+
+.leftPart > img {
+    position: absolute;
+    right: 0;
+}
+
+.circle {
+    width: 492.42px;
+    height: 492.42px;
+    border-radius: 50%;
+    background-color: #244D4D;
+}
+
+.rightPart {
+    display: inline-block;
+    width: 535.0673828125px;
+    padding-top: 105.41px;
+    padding-bottom: 105.41px;
+}
+
+.customersWrapper {
+    display: flex;
+}
+
+.customerText > h3 {
+    width: 535.0673828125px;
+    height: 96px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #242424;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.customerText > span {
+    display: inline-block;
+    width: 535.0673828125px;
+    height: 75.35679626464844px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.customerText {
+    margin-bottom: 40.25px;
+}
+
+.detail {
+    display: inline-block;
+    width: 69px;
+    height: 41.16px;
+    margin-left: 10px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.detail > h6 {
+    margin-top: 0;
+    margin-bottom: 6.16px;
+    width: 69px;
+    height: 19px;
+    opacity: 1;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.mark {
+    display: flex;
+    align-items: center;
+    gap: 7.99px;
+}
+
+.mark > span {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    color: #000000;
+}
