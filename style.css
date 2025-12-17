@@ -691,3 +691,213 @@ header > div >span {
     height: 52px;
     outline: none;
 }
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 442px;
+    background-color: #305F64;
+}
+
+.footerTexts {
+    width: 1200px;
+    height: 237.4px;
+    margin-top: 100.27px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40.19px;
+    display: flex;
+}
+
+.firstFooterText {
+    margin-right: 157.02px;
+    width: 308px;
+}
+
+.firstFooterText > h3 {
+    width: 147px;
+    height: 29px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.firstFooterText > p {
+    width: 308px;
+    height: 78px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.firstFooterText > h5 {
+    width: 117px;
+    height: 26px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 20.46px;
+}
+
+.imagesFooter {
+    width: 125px;
+    height: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.secondFooterText {
+    width: 117px;
+    height: 189.87px;
+    margin-right: 100.46px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondFooterText > h3 {
+    width: 117px;
+    height: 52px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.secondDetails {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.detailsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ourCompany {
+    width: 156px;
+    height: 188px;
+    margin-right: 108.52px;
+}
+
+.ourCompany > h3 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    width: 156px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.subscribeAndForm {
+    width: 253px;
+    height: 181.5px;
+}
+
+.subText {
+    width: 240px;
+    height: 93.5px;
+    margin-bottom: 40px;
+}
+
+.subText > h3 {
+    width: 113px;
+    height: 24px;
+    margin-top: 0;
+    margin-bottom: 23.5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+
+.subText > p {
+    width: 240px;
+    height: 46px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.subForm {
+    width: 253px;
+    height: 48px;
+    background-color: #FFFFFF;
+    padding: 11px 12px 9px 22px;
+}
+
+.footerFrom {
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.footerFrom > input{
+    border: 0;
+    padding: 0;
+    height: 48px;
+    width: 225px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #859395;
+    outline: none;
+}
+
+.footerFrom > button {
+    border: 0;
+    padding: 0;
+    background-color: #FFB624;
+    width: 28px;
+    height: 28px;
+    border-radius: 180px;
+    background-image: url('crc/footer/Group\ 15.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footerLine {
+    width: 100%;
+    height: 1px;
+    background-color: #407980;
+    margin-bottom: 20.08px;
+}
+
+.finalText {
+    width: 100%;
+    height: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 100%;
+}
